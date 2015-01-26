@@ -10,3 +10,7 @@ something to figure out...
 
 >> firebase
 >> angular? flask?
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wfalkwallace/pente/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
