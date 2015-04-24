@@ -8,3 +8,4 @@ multiplayer online version of the boardgame pente
 - nuclear
 - socket.io
 - mongo
+- less
