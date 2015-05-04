@@ -4,7 +4,7 @@ pente
 multiplayer online version of the boardgame pente
 
 - node
-- react
+- react / vue?
 - nuclear
 - socket.io
 - mongo
