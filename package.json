@@ -1,0 +1,19 @@
+{
+  "name": "pente",
+  "version": "1.0.0",
+  "description": "Pente in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wfalkwallace/pente.git"
+  },
+  "author": "William Falk-Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wfalkwallace/pente/issues"
+  },
+  "homepage": "https://github.com/wfalkwallace/pente"
+}
