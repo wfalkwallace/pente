@@ -1,11 +1,17 @@
 pente
 =====
 
-multiplayer online version of the boardgame pente
+Online version of the boardgame Pente
 
-- node
-- react / vue?
-- nuclear
-- socket.io
-- mongo
-- less
+- backend
+  - node, rails, or flask? **flask**
+  - mongo or pg? **pg, probably**
+- frontend
+  - react or vue? **vue, for now**
+  - [nuclear](https://github.com/optimizely/nuclear-js)? **sure**
+  - **less**
+- extras
+  - socket.io
+  - jsdoc2md
+  - [debug](http://smalljs.org/logging/debug/)
+  - [page](http://smalljs.org/client-side-routing/page/)
