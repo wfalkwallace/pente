@@ -11,9 +11,11 @@
     "url": "https://github.com/wfalkwallace/pente.git"
   },
   "author": "William Falk-Wallace",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wfalkwallace/pente/issues"
   },
-  "homepage": "https://github.com/wfalkwallace/pente"
+  "homepage": "https://github.com/wfalkwallace/pente",
+  "directories": {
+    "test": "tests",
+  }
 }
