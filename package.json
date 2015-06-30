@@ -19,16 +19,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "vue": "^0.11.10",
-    "bluebird": "^2.9.25",
-    "bluebird-nodeify": "^1.0.0",
     "express": "^4.12.3",
-    "longjohn": "^0.2.4",
-    "mime-types": "^2.0.10",
-    "mkdirp": "^0.5.0",
-    "morgan": "^1.5.2",
-    "rimraf": "^2.3.2",
-    "songbird": "^1.0.1"
+    "react": "^0.13.3",
+    "vue": "^0.11.10"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
