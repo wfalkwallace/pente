@@ -2,37 +2,22 @@
   "name": "pente",
   "version": "1.0.0",
   "description": "Pente in the browser",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "grunt"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack watch"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wfalkwallace/pente.git"
   },
-  "author": "William Falk-Wallace",
+  "author": "wfalkwallace",
+  "private": true,
   "bugs": {
     "url": "https://github.com/wfalkwallace/pente/issues"
   },
   "homepage": "https://github.com/wfalkwallace/pente",
-  "directories": {
-    "test": "tests"
-  },
-  "dependencies": {
-    "vue": "^0.11.10",
-    "bluebird": "^2.9.25",
-    "bluebird-nodeify": "^1.0.0",
-    "express": "^4.12.3",
-    "longjohn": "^0.2.4",
-    "mime-types": "^2.0.10",
-    "mkdirp": "^0.5.0",
-    "morgan": "^1.5.2",
-    "rimraf": "^2.3.2",
-    "songbird": "^1.0.1"
-  },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-watch": "^0.6.1"
+    "webpack": "^1.12.9"
   }
 }
