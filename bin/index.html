@@ -5,35 +5,10 @@
 
     <link rel="stylesheet" href="css/main.css">
     <script src="main.js"></script>
-
   </head>
   <body>
-    <div class="container text-center">
 
-      <canvas id="board-canvas" width="600" height="600" style="border:0px solid #EEEEEE;">
-      Your browser does not support the HTML5 canvas tag.
-      </canvas>
 
-      <div id="demo">
-          <h1>{{title | uppercase}}</h1>
-          <ul>
-              <li
-                  v-repeat="todos"
-                  v-on="click: done = !done"
-                  class="{{done ? 'done' : ''}}"
-              >
-                  {{content}}
-              </li>
-          </ul>
-      </div>
-
-      <hr>
-
-      <footer>
-        <p>&copy; <a href="http://www.falk-wallace.com">Falk-Wallace</a> 2013</p>
-      </footer>
-
-    </div>
 
   </body>
 </html>
