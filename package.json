@@ -19,6 +19,12 @@
   },
   "homepage": "https://github.com/wfalkwallace/pente",
   "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.3.2",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.1.18",
+    "html-loader": "^0.4.0",
+    "react-dom": "^0.14.3",
     "webpack": "^1.12.9"
   },
   "dependencies": {
