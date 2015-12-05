@@ -17,7 +17,7 @@ module.exports = React.createClass({
     return (
       <div className='board'>
         {this.state.board.map(function(intersection, index) {
-          <Intersection stone="intersection.stone" intersectionIndex="index"></Intersection>
+          return <Intersection stone="intersection.stone" intersectionIndex="index"></Intersection>
         })}
       </div>
     )
