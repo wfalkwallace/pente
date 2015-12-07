@@ -14,8 +14,13 @@ module.exports = React.createClass({
     };
   },
   render: function() {
+    var boardStyles = {
+      display: 'flex',
+      flexWrap: 'wrap',
+    }
+
     return (
-      <div className='board'>
+      <div className='board' style={boardStyles}>
         {this.state.board.map(function(intersection, index) {
           return <Intersection stone="intersection.stone" intersectionIndex="index"></Intersection>
         })}
