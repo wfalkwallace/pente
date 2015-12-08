@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Board = require('components/board');
+var App = require('components/app');
 
 window.addEventListener('DOMContentLoaded', function() {
-  ReactDOM.render(<Board/>, document.getElementById('app'));
+  ReactDOM.render(<App/>, document.getElementById('app'));
 });
