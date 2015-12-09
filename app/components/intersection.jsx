@@ -22,6 +22,6 @@ module.exports = React.createClass({
           <path d="m 10 0 v 20"/>
         </svg>
       </div>
-    )
+    );
   },
 });
