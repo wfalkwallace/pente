@@ -1,5 +1,5 @@
-var React = require('react')
-var Intersection = require('components/intersection')
+var React = require('react');
+var Intersection = require('components/intersection');
 
 module.exports = React.createClass({
   getInitialState: function() {
@@ -7,7 +7,7 @@ module.exports = React.createClass({
     for (var i = 0; i < 19*19; i++) {
       board.push({
         stone: null,
-      })
+      });
     }
     return {
       board: board,
@@ -17,7 +17,7 @@ module.exports = React.createClass({
     var boardStyles = {
       display: 'flex',
       flexWrap: 'wrap',
-    }
+    };
 
     return (
       <div className='board' style={boardStyles}>
@@ -25,6 +25,6 @@ module.exports = React.createClass({
           return <Intersection stone="intersection.stone" intersectionIndex="index"></Intersection>
         })}
       </div>
-    )
+    );
   },
 });
