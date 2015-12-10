@@ -14,7 +14,7 @@ module.exports = React.createClass({
     };
   },
   render: function() {
-    var boardStyles = {
+    var appStyles = {
       width: '100%',
       height: '100%',
     };
