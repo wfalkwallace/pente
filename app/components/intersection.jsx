@@ -1,5 +1,5 @@
 var React = require('react');
-var Intersection = require('components/intersection');
+var Stone = require('components/stone');
 
 module.exports = React.createClass({
   getInitialState: function() {
@@ -7,21 +7,22 @@ module.exports = React.createClass({
   },
   render: function() {
     var intersectionStyles = {
-      width: '20px',
-      height: '20px',
+      width: '30px',
+      height: '30px',
+      position: 'relative',
     };
 
     return (
-      <div className='intersection'>
+      <div className='intersection'
+           style={intersectionStyles}>
         <svg xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 20 20"
-             fill="#000000"
-             stroke="#000000"
-             style={intersectionStyles}>
-          <path d="m 0 10 h 20"/>
-          <path d="m 10 0 v 20"/>
+             viewBox="0 0 30 30"
+             stroke="#000000">
+          <path d="m 0 15 h 30"/>
+          <path d="m 15 0 v 30"/>
         </svg>
+        {this.props.owner ? <Stone owner={this.props.owner}/> : null}
       </div>
-    );
+    )
   },
 });

@@ -6,7 +6,7 @@ module.exports = React.createClass({
     var board = [];
     for (var i = 0; i < 19*19; i++) {
       board.push({
-        stone: null,
+        owner: 0,
       });
     }
     return {
@@ -17,12 +17,15 @@ module.exports = React.createClass({
     var boardStyles = {
       display: 'flex',
       flexWrap: 'wrap',
+      width: '570px',
+      height: '570px',
+      margin: '50px auto',
     };
 
     return (
       <div className='board' style={boardStyles}>
         {this.state.board.map(function(intersection, index) {
-          return <Intersection stone="intersection.stone" intersectionIndex="index"></Intersection>
+          return <Intersection owner={intersection.owner} intersectionIndex={index} key={index}></Intersection>
         })}
       </div>
     );
