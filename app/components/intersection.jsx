@@ -14,7 +14,8 @@ module.exports = React.createClass({
 
     return (
       <div className='intersection'
-           style={intersectionStyles}>
+           style={intersectionStyles}
+           onClick={this.props.onClick}>
         <svg xmlns="http://www.w3.org/2000/svg"
              viewBox="0 0 30 30"
              stroke="#000000">

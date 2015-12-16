@@ -13,6 +13,11 @@ module.exports = React.createClass({
       board: board,
     };
   },
+
+  takeIntersection: function(index, player) {
+    this.state.board[index].owner = player;
+  },
+
   render: function() {
     var boardStyles = {
       display: 'flex',
@@ -25,8 +30,11 @@ module.exports = React.createClass({
     return (
       <div className='board' style={boardStyles}>
         {this.state.board.map(function(intersection, index) {
-          return <Intersection owner={intersection.owner} intersectionIndex={index} key={index}></Intersection>
-        })}
+          return <Intersection
+                  owner={intersection.owner}
+                  onClick={this.takeIntersection.bind(this, index, index % 2 + 1)}
+                  key={index}></Intersection>
+        }.bind(this))}
       </div>
     );
   },
