@@ -22,7 +22,7 @@ module.exports = React.createClass({
           <path d="m 0 15 h 30"/>
           <path d="m 15 0 v 30"/>
         </svg>
-        {this.props.owner ? <Stone owner={this.props.owner}/> : null}
+        { this.props.owner ? <Stone owner={this.props.owner}/> : null }
       </div>
     )
   },
